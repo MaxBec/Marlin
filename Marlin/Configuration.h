@@ -777,7 +777,7 @@
  */
 #define DEFAULT_AXIS_STEPS_PER_UNIT \
 	{                              \
-		80, 80, 400, 454.1        \
+		80, 80, 400, 431.79       \
 	}
 
 /**
@@ -1041,7 +1041,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
 	{                         \
-		28, -33, -2.70       \
+		28, -33, -2.725      \
 	}
 
 // Most probes should stay away from the edges of the bed, but
@@ -1066,7 +1066,7 @@
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-//#define MULTIPLE_PROBING 2
+#define MULTIPLE_PROBING 2
 //#define EXTRA_PROBING    1
 
 /**
