@@ -508,9 +508,9 @@
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
 // Artillery Sidewinder X1
-#define DEFAULT_Kp 15.65
-#define DEFAULT_Ki 1.24
-#define DEFAULT_Kd 49.35
+#define DEFAULT_Kp 15.03
+#define DEFAULT_Ki 1.18
+#define DEFAULT_Kd 47.79
 
 // Ultimaker
 //#define DEFAULT_Kp 22.2
@@ -563,9 +563,9 @@
 //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
 // Artillery Sidewinder X1
-#define DEFAULT_bedKp 47.69
-#define DEFAULT_bedKi 7.04
-#define DEFAULT_bedKd 215.43
+#define DEFAULT_bedKp 46.84
+#define DEFAULT_bedKi 7.11
+#define DEFAULT_bedKd 205.68
 
 //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
 //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -777,7 +777,7 @@
  */
 #define DEFAULT_AXIS_STEPS_PER_UNIT \
 	{                              \
-		80, 80, 400, 431.79       \
+		80, 80, 400, 438          \
 	}
 
 /**
@@ -1041,7 +1041,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
 	{                         \
-		28, -33, -2.725      \
+		28, -33, -2.52       \
 	}
 
 // Most probes should stay away from the edges of the bed, but
