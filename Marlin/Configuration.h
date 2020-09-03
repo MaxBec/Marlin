@@ -1041,7 +1041,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
 	{                         \
-		28, -33, -2.52       \
+		28, -33, -2.62       \
 	}
 
 // Most probes should stay away from the edges of the bed, but
@@ -1347,7 +1347,7 @@
 
 // Beyond the probed grid, continue the implied tilt?
 // Default is to maintain the height of the nearest edge.
-#define EXTRAPOLATE_BEYOND_GRID
+//#define EXTRAPOLATE_BEYOND_GRID
 
 //
 // Experimental Subdivision of the grid by Catmull-Rom method.
