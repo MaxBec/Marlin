@@ -1041,7 +1041,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
 	{                         \
-		28, -33, -2.63       \
+		28, -33, -2.39       \
 	}
 
 // Most probes should stay away from the edges of the bed, but
@@ -1055,7 +1055,7 @@
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
 
 // Feedrate (mm/min) for the "accurate" probe of each point
-#define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 3)
+#define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 4)
 
 /**
  * Multiple Probing
@@ -1067,7 +1067,7 @@
  * A total of 3 or more adds more slow probes, taking the average.
  */
 #define MULTIPLE_PROBING 2
-//#define EXTRA_PROBING    1
+#define EXTRA_PROBING 4
 
 /**
  * Z probes require clearance when deploying, stowing, and moving between
